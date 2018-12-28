@@ -19,6 +19,13 @@ html, body {
     text-size: 20px;
 }
 
+#section-reduced-heading {
+    font-family: "Montserrat", arial;
+    text-align: center;
+    text-decoration: underline;
+    text-size: 20px;
+}
+
 .image-breakdown {
     font-family: "Montserrat", arial;
     text-align: center;
@@ -46,6 +53,13 @@ html, body {
 .login-prompt {
     font-family: "Raleway", arial;
     text-align: center;
+}
+
+.under-footer {
+    font-family: "Raleway", arial;
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
 }
 
 .image-container-dark {
@@ -93,6 +107,11 @@ html, body {
         width: 150px;
     }
 
+    #rewards-card-image {
+        height: 200px;
+        width: 200px;
+    }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -126,6 +145,11 @@ html, body {
     .benefits-scheme-image {
         height: 150px;
         width: 150px;
+    }
+
+    #rewards-card-image {
+        height: 200px;
+        width: 200px;
     }
 
 }
@@ -163,6 +187,11 @@ html, body {
         width: 125px;
     }
 
+    #rewards-card-image {
+        height: 175px;
+        width: 175px;
+    }
+
 }
 
 /* Medium Devices, Desktops */
@@ -198,6 +227,11 @@ html, body {
         width: 125px;
     }
 
+    #rewards-card-image {
+        height: 200px;
+        width: 200px;
+    }
+
 }
 
 /* Large Devices, Wide Screens */
@@ -230,6 +264,11 @@ html, body {
     .benefits-scheme-image {
         height: 175px;
         width: 175px;
+    }
+
+    #rewards-card-image {
+        height: 250px;
+        width: 250px;
     }
 
 }
@@ -299,11 +338,73 @@ html, body {
 #phone {
     background-image: url("../images/phone.jpg");
 }
-
 /* END OF BENEFITS AND SCHEMES IMAGES */
 
-/* FOOTER STYLING */
+/* LOYALTY CARD */
+#rewards-card-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
+    margin: 30px auto;
+
+    background-image: url("../images/loyalty-card.png");
+}
+
+/* END OF LOYALTY CARD */
+
+/* LOGIN SECTION */
+#login-button {
+    height: 100px;
+    width: 50%;
+
+    background-color: #ffffff;
+
+    border-radius: 25px;
+
+    margin: 50px auto;
+
+    cursor: pointer;
+}
+
+#button-text {
+    font-family: "Montserrat", arial;
+    text-align: center;
+    text-size: 20px;
+
+    position: relative;
+    top: 30%;
+}
+
+/* END OF LOGIN SECTION */
+
+/* FOOTER STYLING */
+#footer {
+    background-color: #333;
+}
+
+.footer-heading {
+    font-family: "Montserrat", arial;
+    text-align: center;
+    text-size: 18px;
+
+    color: #ffffff;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-item {
+    font-family: "Raleway", arial;
+    text-align: center;
+    text-size: 12px;
+
+    color: #ffffff;
+
+    padding: 10px;
+
+    cursor: pointer;
+}
 
 /* END OF FOOTER STYLING */
 
