@@ -4,12 +4,18 @@ html, body {
     overflow-x: hidden;
 }
 
+#participate, #how-to {
+    background-color: #501B1D;
+}
+
 .light {
-    background-color: white;
+    background-color: #ffffff;
+    border-top: 5px solid #501B1D;
+    border-bottom: 5px solid #501B1D;
 }
 
 .dark {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
 }
 
 .image-header {
@@ -43,11 +49,13 @@ html, body {
     font-family: "Montserrat", arial;
     text-align: center;
     text-decoration: underline;
+    font-color: #2E1114;
 }
 
 .sub-header {
     font-family: "Raleway", arial;
     text-align: center;
+    font-color: #2E1114;
 }
 
 .login-prompt {
@@ -66,12 +74,45 @@ html, body {
     background-color: #f5f5f5;
     border-radius: 25px;
     padding: 10px;
+
+    border: 3px solid #64485C;
 }
 
 .image-container-light {
     background-color: #ffffff;
     border-radius: 25px;
     padding: 25px;
+
+    border: 3px solid #64485C;
+}
+
+.no-border {
+    border: 0px;
+    border-radius: 0px;
+}
+
+.white {
+    color: white;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.login-link {
+    color: #ffffff;
+}
+
+.login-link:hover {
+    color: #ffffff;
+}
+
+.login-link-dark {
+    color: #333;
+}
+
+.login-link-dark {
+    color: #333;
 }
 
 /* Custom, iPhone Retina */
@@ -275,16 +316,18 @@ html, body {
 
 /* NAVBAR STYLING */
 .nav-background {
-    background-color: #333;
+    background-color: #ffffff;
 }
 
 .nav-theme a {
-    color: #ffffff;
+    color: #283018;
     font-family: "Raleway", arial;
+
+    padding: 10px;
 }
 
 .nav-theme a:hover {
-    color: #E0E0E0;
+    color: #333;
 }
 /* END OF NAVBAR STYLING */
 
@@ -296,8 +339,8 @@ html, body {
 
     margin: 30px auto;
 
-    box-shadow: 0px 0px 5px #333;
-    border-radius: 25px;
+
+
 }
 
 #apple {
@@ -348,7 +391,7 @@ html, body {
 
     margin: 30px auto;
 
-    background-image: url("../images/loyalty-card.png");
+    background-image: url("../images/shopping.png");
 }
 
 /* END OF LOYALTY CARD */
@@ -358,13 +401,15 @@ html, body {
     height: 100px;
     width: 50%;
 
-    background-color: #ffffff;
+    background-color: #501B1D;
 
     border-radius: 25px;
 
     margin: 50px auto;
 
     cursor: pointer;
+
+    border: 3px solid #ffffff;
 }
 
 #button-text {
@@ -374,13 +419,14 @@ html, body {
 
     position: relative;
     top: 30%;
+    color: #ffffff;
 }
 
 /* END OF LOGIN SECTION */
 
 /* FOOTER STYLING */
 #footer {
-    background-color: #333;
+    background-color: #2E1114;
 }
 
 .footer-heading {
@@ -390,8 +436,8 @@ html, body {
 
     color: #ffffff;
 
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .footer-item {
