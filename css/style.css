@@ -63,11 +63,57 @@ html, body {
     text-align: center;
 }
 
+form {
+    text-align: center;
+}
+
+input {
+    font-family: "Montserrat", arial;
+
+    font-size: 20px;
+    text-align: center;
+
+    padding: 10px;
+    margin: 10px 0px;
+
+
+    width: 75%;
+
+    border: 1px solid #E0E0E0;
+
+    outline-color: transparent;
+    outline-style: none;
+}
+
+.invalid-container {
+    background-color: #AF0606;
+
+    width: 75%;
+
+    margin: 10px auto;
+}
+
+.left {
+    text-align: left;
+}
+
 .under-footer {
     font-family: "Raleway", arial;
     text-align: center;
     margin: 10px;
     padding: 0px;
+}
+
+#error-message {
+    font-family: "Montserrat", arial;
+
+    font-size: 18px;
+    text-align: center;
+
+    color: white;
+
+    margin: 25px;
+
 }
 
 .image-container-dark {
@@ -76,6 +122,22 @@ html, body {
     padding: 10px;
 
     border: 3px solid #64485C;
+}
+
+.login-template {
+    border: 3px solid #64485C;
+}
+
+.under-section {
+    padding: 25px;
+}
+
+.login-header {
+    padding: 25px;
+}
+
+.login-title {
+    padding: 50px;
 }
 
 .image-container-light {
@@ -397,7 +459,7 @@ html, body {
 /* END OF LOYALTY CARD */
 
 /* LOGIN SECTION */
-#login-button {
+.login-button {
     height: 100px;
     width: 50%;
 
@@ -412,7 +474,7 @@ html, body {
     border: 3px solid #ffffff;
 }
 
-#button-text {
+.button-text {
     font-family: "Montserrat", arial;
     text-align: center;
     text-size: 20px;
@@ -420,6 +482,10 @@ html, body {
     position: relative;
     top: 30%;
     color: #ffffff;
+}
+
+#attempt-login {
+    margin: 25px auto;
 }
 
 /* END OF LOGIN SECTION */
