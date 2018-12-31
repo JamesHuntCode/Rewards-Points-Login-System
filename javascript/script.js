@@ -39,6 +39,11 @@ $(document).ready(function() {
                     if (validEmail && validPassword) {
 
                         $('#invalid').slideUp(500);
+                        $('#go-to-logged-in').attr("href", "loggedin.html");
+
+                    } else {
+
+                        $('#go-to-logged-in').attr("href", "#");
 
                     }
 
@@ -63,8 +68,14 @@ $(document).ready(function() {
                     if (validPassword && validEmail) {
 
                         $('#invalid').slideUp(500);
+                        $('#go-to-logged-in').attr("href", "loggedin.html");
+
+                    } else {
+
+                        $('#go-to-logged-in').attr("href", "#");
 
                     }
+
 
                 } else {
 
@@ -90,6 +101,8 @@ $(document).ready(function() {
 
             }
 
+            $('#go-to-logged-ingi').attr("href", "#");
+
         }
 
     }
@@ -99,7 +112,7 @@ $(document).ready(function() {
 
         if (validEmail && validPassword) {
 
-            // Take the user to login...
+            // User is taken to login...
 
         } else {
 
